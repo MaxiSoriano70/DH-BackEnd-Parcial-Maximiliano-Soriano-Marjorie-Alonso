@@ -1,0 +1,16 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ֽֿץװ8ֵüכמש1
+e
+java:S2259]"HA "NullPointerException" could be thrown; "connection" is nullable here.(פךֲ8רˆלמש1
+l
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(תב”8שˆלמש1
+i
+java:S2095I"GUse try-with-resources or close this "Statement" in a "finally" clause.(י°ֱµ‏ÿÿÿÿ8שˆלמש1
+m
+java:S3008"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¸¨H8תˆלמש1
+w
+java:S3008"URename this field "SQL_INSERT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß«‏ÿÿÿÿ8תˆלמש1
+v
+java:S3008"YRename this field "SQL_SELECT_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(צÛפ 8תˆלמש1
+<
+java:S6905"Don't use the query "SELECT *".(צÛפ 8ˆ‰למש1

@@ -1,0 +1,39 @@
+[2024-05-21 22:07:10] [ ERROR] [OdontologoServiceTest:28] Error de Sintaxis en sentencia SQL "\000d\000a\000d\000aCREATE TABLE ODONTOLOGOS(\000d\000a    ID INT AUTO_INCREMENT PRIMARY KEY,\000d\000a    NUMERO_MATRICULA INT NOT NULL,\000d\000a    NOMBRE VARCHAR(50) NOT NULL,\000d\000a    APELLIDO VARCHAR(50) NOT NULL,\000d\000a[*])"; se esperaba "identifier"
+Syntax error in SQL statement "\000d\000a\000d\000aCREATE TABLE ODONTOLOGOS(\000d\000a    ID INT AUTO_INCREMENT PRIMARY KEY,\000d\000a    NUMERO_MATRICULA INT NOT NULL,\000d\000a    NOMBRE VARCHAR(50) NOT NULL,\000d\000a    APELLIDO VARCHAR(50) NOT NULL,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+
+CREATE TABLE ODONTOLOGOS(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    NUMERO_MATRICULA INT NOT NULL,
+    NOMBRE VARCHAR(50) NOT NULL,
+    APELLIDO VARCHAR(50) NOT NULL,
+) [42001-214]
+[2024-05-21 22:10:58] [ INFO ] [OdontologoIDaoH2:39] OONTOLOGO PERSISTIDO = Odontologoid=6, matricula=707070, nombre='Matias', apellido='Rodriguez'
+[2024-05-21 22:11:36] [ INFO ] [OdontologoIDaoH2:39] OONTOLOGO PERSISTIDO = Odontologoid=6, matricula=707070, nombre='Matias', apellido='Rodriguez'
+[2024-05-21 22:11:36] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=1, matricula=9090, nombre='CRYSTAL', apellido='RUSH'
+[2024-05-21 22:11:36] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=2, matricula=4576, nombre='CAMILO', apellido='SAEZ'
+[2024-05-21 22:11:36] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=3, matricula=6759, nombre='CARMEN', apellido='SANTELICES'
+[2024-05-21 22:11:36] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=4, matricula=2343, nombre='ESTEBAN', apellido='LONDON'
+[2024-05-21 22:11:36] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=5, matricula=6969, nombre='MIA', apellido='KHALIFA'
+[2024-05-21 22:11:36] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=6, matricula=707070, nombre='Matias', apellido='Rodriguez'
+[2024-05-21 22:12:16] [ INFO ] [OdontologoIDaoH2:39] OONTOLOGO PERSISTIDO = Odontologoid=6, matricula=707070, nombre='Matias', apellido='Rodriguez'
+[2024-05-21 22:12:16] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=1, matricula=9090, nombre='CRYSTAL', apellido='RUSH'
+[2024-05-21 22:12:16] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=2, matricula=4576, nombre='CAMILO', apellido='SAEZ'
+[2024-05-21 22:12:16] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=3, matricula=6759, nombre='CARMEN', apellido='SANTELICES'
+[2024-05-21 22:12:16] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=4, matricula=2343, nombre='ESTEBAN', apellido='LONDON'
+[2024-05-21 22:12:16] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=5, matricula=6969, nombre='MIA', apellido='KHALIFA'
+[2024-05-21 22:12:16] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=6, matricula=707070, nombre='MATIAS', apellido='RODRIGUEZ'
+[2024-05-21 22:25:43] [ INFO ] [OdontologoIDaoH2:39] OONTOLOGO PERSISTIDO = Odontologoid=6, matricula=707070, nombre='Matias', apellido='Rodriguez'
+[2024-05-21 22:25:43] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=1, matricula=9090, nombre='CRYSTAL', apellido='RUSH'
+[2024-05-21 22:25:43] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=2, matricula=4576, nombre='CAMILO', apellido='SAEZ'
+[2024-05-21 22:25:43] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=3, matricula=6759, nombre='CARMEN', apellido='SANTELICES'
+[2024-05-21 22:25:43] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=4, matricula=2343, nombre='ESTEBAN', apellido='LONDON'
+[2024-05-21 22:25:43] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=5, matricula=6969, nombre='MIA', apellido='KHALIFA'
+[2024-05-21 22:25:43] [ INFO ] [OdontologoIDaoH2:83] Odontologo encontrado Odontologoid=6, matricula=707070, nombre='MATIAS', apellido='RODRIGUEZ'
+[2024-05-21 22:31:51] [ INFO ] [OdontologoEnMemoria:29] TODOS LOS ODONTOLOGOS [Odontologoid=1, matricula=1234, nombre='Crystal', apellido='Rush', Odontologoid=2, matricula=4321, nombre='Andres', apellido='Guzman', Odontologoid=3, matricula=707070, nombre='Matias', apellido='Rodriguez']
+[2024-05-21 22:34:22] [ INFO ] [OdontologoEnMemoria:30] ODONTOLOGO Odontologoid=1, matricula=1234, nombre='Crystal', apellido='Rush'
+[2024-05-21 22:34:22] [ INFO ] [OdontologoEnMemoria:30] ODONTOLOGO Odontologoid=2, matricula=4321, nombre='Andres', apellido='Guzman'
+[2024-05-21 22:34:22] [ INFO ] [OdontologoEnMemoria:30] ODONTOLOGO Odontologoid=3, matricula=707070, nombre='Matias', apellido='Rodriguez'
+[2024-05-21 22:35:40] [ INFO ] [OdontologoEnMemoria:30] ODONTOLOGO Odontologoid=1, matricula=1234, nombre='CRYSTAL', apellido='RUSH'
+[2024-05-21 22:35:40] [ INFO ] [OdontologoEnMemoria:30] ODONTOLOGO Odontologoid=2, matricula=4321, nombre='ANDRES', apellido='GUZMAN'
+[2024-05-21 22:35:40] [ INFO ] [OdontologoEnMemoria:30] ODONTOLOGO Odontologoid=3, matricula=707070, nombre='MATIAS', apellido='RODRIGUEZ'
